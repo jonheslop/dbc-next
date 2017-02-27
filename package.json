@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0",
+  "name": "dbc-next",
+  "description": "The Do Book Company’s shop powered by Next and Shopify",
+  "main": "n/a",
+  "scripts": {
+    "dev": "next"
+  },
+  "repository": "http://www.github.com/jonheslop/dbc-next",
+  "keywords": [
+    "Shopify",
+    "React",
+    "Next",
+    "Zeit"
+  ],
+  "author": "Jon Heslop <jon@jonheslop.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^1.2.3",
+    "shopify-buy": "^0.6.2"
+  }
+}

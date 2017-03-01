@@ -15,7 +15,7 @@ export default class extends React.Component {
     render() {
         return (
             <div>
-                <header role="banner" className="fixed vh-100 bg-near-white top-0 left-0 w5 flex content-center justify-center flex-column border-box ph3">
+                <header role="banner" className="fixed vh-100 bg-near-white top-0 left-0 w5 flex content-center justify-center flex-column border-box pa4">
                     <header className="items-start flex-auto">
                         <h1 className="f3">The Do Book Co.</h1>
                         <nav className="sans-serif lh-copy mt5">

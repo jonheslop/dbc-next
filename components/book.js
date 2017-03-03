@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default ({image,title,author}) => (
+export default ({ image, title, author }) => (
     <li className="fl w-50 w-third-m w-20-l border-box pa3">
         <figure className="ma0">
-            <img src={ image } alt={`${ title } by ${ author }`} />
+            <img src={ image } alt={`${ title } by ${ author }`} style={{filter: 'blur(8px)'}}/>
         </figure>
     </li>
 )

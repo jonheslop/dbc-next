@@ -1,4 +1,4 @@
-import Shopify from '../app/shopifyAuth'
+import Shopify from './shopifyAuth'
 
 const shopifyFetch = function fetchData(url) {
     return new Promise(function(resolve, reject) {
